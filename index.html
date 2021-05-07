@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>EVENT PARTICIPATION FORM</title>
+</head>
+<body>
+    <h1>EVENT MANAGEMENT FORM</h1>
+    <form action="mailto:mkpallen123@gmail.com" method="post" enctype="text/plain">
+
+<fieldset>
+  <legend>YOUR DETAILS:</legend>
+  <p>NAME: <input type="text" name="name"></p>
+
+  <p>EMAIL: <input type="email" name="email"></p>
+
+<p>MOBILE NO.: <input type="text" name="mobile"></p>
+</fieldset>
+
+<fieldset>
+  <legend>UNIVERSITY/COLLEGE DETAILS:</legend>
+<p>  Please select your University/college from the given list:</p>
+<select name="college">
+  <option value="Delhi technological university">DELHI TECHNOLOGICAL UNIVERSITY</option>
+  <option value="NSUT">NETAJI SUBASH UNIVERSITY OF TECHNOLOGY</option>
+  <option value="IGDUW">IGDTUW</option>
+  <option value="IIIT DELHI">IIIT DELHI</option>
+  <option value="IIT DELHI">IIT DELHI</option>
+    </select>
+  <p>Session:</p>
+  <select  name="session">
+    <option value="2017-2021">2017-2021</option>
+    <option value="2018-2022">2018-2022</option>
+    <option value="2019-2023">2019-2023</option>
+    <option value="2020-2024">2020-2024</option>
+</select>
+<p>BRANCH: <input type="text" name="branch"></p>
+<p>ROLL NO.:<input type="text" name="roll"></p>
+<p>UPLOAD YOUR SEMESTER REGISTRATION FORM:<input type="file" name="registration form"><input type="submit" value="Upload"></p>
+</fieldset>
+
+<fieldset>
+  <legend>EVENT INFORMATION:</legend>
+  <p>Events in which you want to take part:</p>
+  <select  name="events" multiple="multiple">
+    <option value="dancing">Dancing</option>
+    <option value="singing">Singing</option>
+    <option value="drama">Drama</option>
+    <option value="instruments">Musical instruments</option>
+  </select>
+  <p>Any thing else, please describe:</p>
+  <textarea name="comments" rows="4" cols="20"></textarea>
+</fieldset>
+
+<p><input type="checkbox" checked="checked">Sign in up for email updates.</p>
+<input type="submit" name="submit" value="submit">
+</form>
